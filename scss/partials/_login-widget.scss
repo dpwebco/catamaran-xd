@@ -1,3 +1,5 @@
+@import "_vars.scss";
+
 .login-widget {
     width: 360px;
     height: 502px;
@@ -41,5 +43,9 @@
                 font-size: 16px;
             }
         }
+    }
+
+    .username {
+        margin-bottom: 20px;
     }
 }
