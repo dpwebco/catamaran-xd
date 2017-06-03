@@ -1,6 +1,10 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
 .login-widget {
   width: 360px;
-  height: 502px;
+  padding-bottom: 20px;
   background-color: #fff;
   margin-top: 50px;
   margin-left: 50px;
@@ -23,20 +27,47 @@
     margin: 40px auto 0 auto;
     position: relative; }
   .login-widget input[type="text"], .login-widget input[type="password"] {
-    width: 100%;
+    width: 264px;
     height: 52px;
     padding-left: 18px; }
     .login-widget input[type="text"]::-webkit-input-placeholder, .login-widget input[type="password"]::-webkit-input-placeholder {
       font-family: "Roboto", sans-serif;
       text-transform: capitalize;
       font-size: 16px; }
-  .login-widget .username {
+  .login-widget .username,
+  .login-widget .password {
     margin-bottom: 20px; }
-  .login-widget .remember-me input[type="checkbox"] {
-    display: none;
-    position: relative;
-    top: 3px;
-    margin-top: 5px; }
+  .login-widget .remember-me {
+    display: inline-block;
+    width: 125px; }
+    .login-widget .remember-me input[type="checkbox"] {
+      display: none;
+      position: relative;
+      top: 3px;
+      margin-top: 5px; }
+  .login-widget .sign-in-btn {
+    float: right;
+    border: none;
+    width: 104px;
+    height: 40px;
+    background-color: #A6E50F;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px; }
+  .login-widget .fb-sign-in {
+    width: 100%;
+    height: 52px;
+    border: none;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #3B5998;
+    text-transform: capitalize; }
+    .login-widget .fb-sign-in .fa-facebook {
+      margin-right: 10px; }
+    .login-widget .fb-sign-in:hover {
+      cursor: pointer; }
 
 body {
   font-family: "Maven Pro", sans-serif; }
