@@ -144,6 +144,9 @@
       font-weight: bold;
       color: #fff; }
 
+.online-helpers {
+  background-color: #F3F6F8; }
+
 body {
   font-family: "Maven Pro", sans-serif; }
   body.login-section {
