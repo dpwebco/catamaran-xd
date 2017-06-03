@@ -13,7 +13,6 @@
     text-transform: capitalize;
     font-size: 30px;
     color: #323c47;
-    font-weight: 600;
     text-align: center; }
   .login-widget .sub-heading {
     color: #989898;
@@ -21,15 +20,47 @@
     text-align: center; }
   .login-widget .login-form {
     width: 264px;
-    margin: 40px auto 0 auto; }
+    margin: 40px auto 0 auto;
+    position: relative; }
   .login-widget input[type="text"], .login-widget input[type="password"] {
     width: 100%;
     height: 52px;
     padding-left: 18px; }
     .login-widget input[type="text"]::-webkit-input-placeholder, .login-widget input[type="password"]::-webkit-input-placeholder {
-      font-family: "Roboto";
+      font-family: "Roboto", sans-serif;
       text-transform: capitalize;
       font-size: 16px; }
+  .login-widget .username {
+    margin-bottom: 20px; }
+  .login-widget .remember-me input[type="checkbox"] {
+    display: none;
+    position: relative;
+    top: 3px;
+    margin-top: 5px; }
 
 body {
-  font-family: "Europa"; }
+  font-family: "Maven Pro", sans-serif; }
+  body.login-section {
+    background-color: #642096; }
+
+.remember-me {
+  position: relative;
+  margin-top: 20px; }
+  .remember-me input[type="checkbox"] {
+    display: none; }
+    .remember-me input[type="checkbox"] + .label-text {
+      display: inline-block; }
+      .remember-me input[type="checkbox"] + .label-text:before {
+        content: url(../img/remember-me-unchecked.png);
+        width: 23px;
+        height: 23px; }
+    .remember-me input[type="checkbox"]:checked + .label-text:before {
+      content: url(../img/remember-me-checked.png); }
+  .remember-me .text {
+    position: absolute;
+    top: 0px;
+    font-size: 14px;
+    line-height: 23px;
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: capitalize; }
