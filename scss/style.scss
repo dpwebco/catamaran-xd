@@ -1,8 +1,44 @@
 @import "partials/_vars.scss";
 @import "partials/_login-widget.scss";
+@import "partials/_login-with-bg.scss";
 
 body {
     font-family: $base-font;
 
     &.login-section { background-color: #642096; }
 }
+.remember-me {
+    position: relative;
+    input[type="checkbox"] {
+        display: none;
+
+        + .label-text {
+            display: inline-block;
+            &:before {
+                content: url(../img/remember-me-unchecked.png);
+                width: 23px;
+                height: 23px;
+            }
+        }
+
+        &:checked + .label-text {
+            &:before {
+                content: url(../img/remember-me-checked.png);
+
+            }
+        }
+    }
+
+    margin-top: 20px;
+
+    .text {
+        position:absolute;
+        top: 0px;
+        font-size: 14px;
+        line-height: 23px;
+        display: inline-block;
+        margin-left: 10px;
+        text-transform: capitalize;
+    }
+}
+
