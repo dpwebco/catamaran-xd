@@ -144,8 +144,120 @@
       font-weight: bold;
       color: #fff; }
 
+.clear {
+  clear: both; }
+
 .online-helpers {
-  background-color: #F3F6F8; }
+  background-color: #F3F6F8;
+  padding-top: 50px; }
+  .online-helpers .message-widget {
+    padding: 20px;
+    height: 500px; }
+    .online-helpers .message-widget .messages .message {
+      position: relative;
+      display: inline-block;
+      width: 100%; }
+      .online-helpers .message-widget .messages .message .avatar {
+        float: left; }
+      .online-helpers .message-widget .messages .message.second {
+        top: 30px; }
+      .online-helpers .message-widget .messages .message .assistant-msg {
+        float: left;
+        background-color: #4DA1FF;
+        color: #fff;
+        padding: 15px 24px;
+        font-size: 16px;
+        margin-left: 20px;
+        position: relative; }
+        .online-helpers .message-widget .messages .message .assistant-msg:before {
+          content: "";
+          width: 10px;
+          height: 10px;
+          background-color: #4DA1FF;
+          z-index: 100;
+          position: absolute;
+          top: 10px;
+          left: -5px;
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+      .online-helpers .message-widget .messages .message .message-time {
+        position: absolute; }
+        .online-helpers .message-widget .messages .message .message-time.right {
+          float: right;
+          right: 0;
+          top: 80px; }
+        .online-helpers .message-widget .messages .message .message-time.left {
+          float: left;
+          margin-left: 40px;
+          margin-top: 10px; }
+      .online-helpers .message-widget .messages .message .msg-text {
+        float: right;
+        line-height: 27px;
+        margin-right: 20px; }
+      .online-helpers .message-widget .messages .message .happy {
+        float: right; }
+      .online-helpers .message-widget .messages .message .audio-player {
+        width: 100%;
+        height: 20px;
+        border: 1px solid #d8e3ec;
+        position: relative;
+        top: 50px; }
+        .online-helpers .message-widget .messages .message .audio-player .audio-progress {
+          width: 234px;
+          margin-left: 50px;
+          margin-top: 7px;
+          height: 5px;
+          background-color: #E9EFF4; }
+          .online-helpers .message-widget .messages .message .audio-player .audio-progress .played {
+            width: 51px;
+            height: 5px;
+            background-color: #fc6e50; }
+  .online-helpers .sm-message-widget {
+    background-color: #fff;
+    overflow: hidden; }
+    .online-helpers .sm-message-widget header {
+      padding-top: 40px;
+      padding-left: 40px;
+      margin-bottom: 20px; }
+      .online-helpers .sm-message-widget header .icon {
+        float: left;
+        margin-right: 10px; }
+      .online-helpers .sm-message-widget header .title {
+        font-size: 20px; }
+    .online-helpers .sm-message-widget input {
+      margin-left: 40px;
+      background-color: #F4F7F9;
+      padding-left: 18px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: 280px;
+      height: 52px; }
+      .online-helpers .sm-message-widget input::-webkit-input-placeholder {
+        text-transform: capitalize; }
+  .online-helpers footer {
+    margin-top: 28px; }
+    .online-helpers footer .close-btn,
+    .online-helpers footer .send-btn {
+      width: 50%;
+      float: left;
+      text-align: center;
+      height: 53px;
+      border-top: 1px solid #ddd;
+      text-transform: capitalize;
+      line-height: 52px; }
+    .online-helpers footer .close-btn {
+      border-right: 1px solid #ddd; }
+
+.clear {
+  clear: both; }
+
+.message-widget {
+  background-color: #fff; }
+  .message-widget .messages {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
 
 body {
   font-family: "Maven Pro", sans-serif; }
