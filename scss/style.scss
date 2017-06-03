@@ -7,6 +7,9 @@ body {
 
     &.login-section { background-color: #642096; }
 }
+input {
+    border: none;
+}
 .remember-me {
     position: relative;
     input[type="checkbox"] {
