@@ -29,7 +29,8 @@
   .login-widget input[type="text"], .login-widget input[type="password"] {
     width: 264px;
     height: 52px;
-    padding-left: 18px; }
+    padding-left: 18px;
+    border: 1px solid #D0D7DD; }
     .login-widget input[type="text"]::-webkit-input-placeholder, .login-widget input[type="password"]::-webkit-input-placeholder {
       font-family: "Roboto", sans-serif;
       text-transform: capitalize;
@@ -147,6 +148,9 @@ body {
   font-family: "Maven Pro", sans-serif; }
   body.login-section {
     background-color: #642096; }
+
+input {
+  border: none; }
 
 .remember-me {
   position: relative;
