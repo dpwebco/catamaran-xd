@@ -1,0 +1,81 @@
+.free-trial-subscription {
+    width: 477px;
+    height: 105px;
+    margin: 0 auto;
+
+    .trial-sub-form {
+        width: 477px;
+        height: 93px;
+        background-color: #FAFBFC;
+        border: 1px solid darken(#FAFBFC, 5%);
+        margin: 0 auto;
+
+        .input-bg {
+            width: 400px;
+            margin: 20px auto 0 auto;
+            height: 40px;
+            border-bottom: 1px solid #D0D7DD;
+            .user-email {
+                width: 300px;
+                height: 52px;
+                padding-left: 20px;
+                float: left;
+                background-color: transparent;
+                &::-webkit-input-placeholder {
+                    font-size: 18px;
+                }
+            }
+
+            .text {
+                display: inline-block;
+                position: relative;
+                left: 24px;
+                color: #4DA1FF;
+            }
+
+            .fa-paper-plane {
+                float: left;
+                position: relative;
+                color: #4DA1FF;
+            }
+
+            .submit-btn {
+                position: relative;
+                top: 10px;
+                left: 20px;
+            }
+        }
+    }
+
+    .page-title {
+        font-weight: normal;
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .info {
+        margin-left: 86px;
+        .icon {
+            width: 14px;
+            height: 14px;
+            background-color: #D0D7DC;
+            color: #fff;
+            text-align: center;
+            border-radius: 100%;
+            float: left;
+            margin-right: 20px;
+            margin-top: 0;
+            .text {
+                position: relative;
+                top: -3px;
+
+                font-size: 14px;
+            }
+        }
+
+        .info-text {
+            font-size: 12px;
+            color: #989898;
+        }
+    }
+}
