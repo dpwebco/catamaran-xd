@@ -152,7 +152,7 @@
   padding-top: 50px; }
   .online-helpers .message-widget {
     padding: 20px;
-    height: 500px; }
+    height: 230px; }
     .online-helpers .message-widget .messages .message {
       position: relative;
       display: inline-block;
@@ -197,22 +197,56 @@
         margin-right: 20px; }
       .online-helpers .message-widget .messages .message .happy {
         float: right; }
-      .online-helpers .message-widget .messages .message .audio-player {
-        width: 100%;
-        height: 20px;
-        border: 1px solid #d8e3ec;
-        position: relative;
-        top: 50px; }
-        .online-helpers .message-widget .messages .message .audio-player .audio-progress {
-          width: 234px;
-          margin-left: 50px;
-          margin-top: 7px;
-          height: 5px;
-          background-color: #E9EFF4; }
-          .online-helpers .message-widget .messages .message .audio-player .audio-progress .played {
-            width: 51px;
-            height: 5px;
-            background-color: #fc6e50; }
+  .online-helpers .audio-player {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #d8e3ec;
+    position: relative;
+    top: 50px; }
+    .online-helpers .audio-player .audio-progress {
+      width: 234px;
+      margin-left: 50px;
+      margin-top: 12px;
+      height: 5px;
+      background-color: #E9EFF4; }
+      .online-helpers .audio-player .audio-progress .played {
+        width: 51px;
+        height: 5px;
+        background-color: #fc6e50; }
+      .online-helpers .audio-player .audio-progress .scrubber {
+        width: 18px;
+        height: 18px;
+        background-color: #fff;
+        border: 1px solid #CBCBCB;
+        border-radius: 100%;
+        margin-top: -12px;
+        margin-left: 50px; }
+        .online-helpers .audio-player .audio-progress .scrubber .inner {
+          width: 8px;
+          height: 8px;
+          background-color: #fc6e50;
+          position: relative;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          border-radius: 4px; }
+  .online-helpers .play-btn {
+    width: 18px;
+    height: 18px;
+    background-color: #fc6e50;
+    float: left;
+    border-radius: 9px;
+    position: relative;
+    left: 10px;
+    top: 7px; }
+    .online-helpers .play-btn .fa-pause {
+      color: #fff;
+      font-size: 9px;
+      position: relative;
+      left: 5px;
+      top: -2px; }
   .online-helpers .sm-message-widget {
     background-color: #fff;
     overflow: hidden; }
