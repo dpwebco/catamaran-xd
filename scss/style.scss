@@ -1,10 +1,10 @@
 @import "partials/_vars.scss";
+@import "partials/_remember-me.scss";
 @import "partials/_login-widget.scss";
 @import "partials/_login-with-bg.scss";
-@import "partials/_online-helpers.scss"; 
+@import "partials/_online-helpers.scss";
 @import "partials/_free-trial-subscription";
 @import "partials/_style-guide.scss";
-@import "partials/_remember-me.scss";
 body {
     font-family: $base-font;
 
