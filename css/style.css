@@ -1,3 +1,25 @@
+.remember-me {
+  position: relative;
+  margin-top: 20px; }
+  .remember-me input[type="checkbox"] {
+    display: none; }
+    .remember-me input[type="checkbox"] + .label-text {
+      display: inline-block; }
+      .remember-me input[type="checkbox"] + .label-text:before {
+        content: url(../../img/remember-me-unchecked.png);
+        width: 23px;
+        height: 23px; }
+    .remember-me input[type="checkbox"]:checked + .label-text:before {
+      content: url(../../img/remember-me-checked.png); }
+  .remember-me .text {
+    position: absolute;
+    top: 0px;
+    font-size: 14px;
+    line-height: 23px;
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: capitalize; }
+
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
@@ -451,6 +473,58 @@
 .style-guide-bg {
   background-color: #F3F6F8; }
 
+.task-search-results {
+  padding-top: 50px;
+  font-family: "Catamaran", sans-serif; }
+  .task-search-results .title {
+    font-size: 24px;
+    text-transform: capitalize;
+    font-weight: bold;
+    float: left; }
+  .task-search-results .task-result {
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 41px 0 41px 49px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+  .task-search-results .icon {
+    float: left;
+    margin-right: 16px; }
+  .task-search-results .added-date {
+    font-family: Roboto, sans-serif;
+    color: #989898;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    text-transform: capitalize; }
+  .task-search-results .desc {
+    margin: 20px 0;
+    font-family: "Roboto", sans-serif;
+    line-height: 28px; }
+  .task-search-results .button-group .user-template-btn,
+  .task-search-results .button-group .preview-btn {
+    float: left;
+    padding: 11px 37px;
+    background-color: #4DA1FF;
+    border: 1px solid #4DA1FF;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: #fff; }
+  .task-search-results .button-group .preview-btn {
+    background-color: #fff;
+    color: #323C47;
+    border: 1px solid #989898;
+    position: relative;
+    left: 30px; }
+
+.task {
+  background-color: #FAFBFC; }
+
 body {
   font-family: "Maven Pro", sans-serif; }
   body.login-section {
@@ -458,25 +532,3 @@ body {
 
 input {
   border: none; }
-
-.remember-me {
-  position: relative;
-  margin-top: 20px; }
-  .remember-me input[type="checkbox"] {
-    display: none; }
-    .remember-me input[type="checkbox"] + .label-text {
-      display: inline-block; }
-      .remember-me input[type="checkbox"] + .label-text:before {
-        content: url(../img/remember-me-unchecked.png);
-        width: 23px;
-        height: 23px; }
-    .remember-me input[type="checkbox"]:checked + .label-text:before {
-      content: url(../img/remember-me-checked.png); }
-  .remember-me .text {
-    position: absolute;
-    top: 0px;
-    font-size: 14px;
-    line-height: 23px;
-    display: inline-block;
-    margin-left: 10px;
-    text-transform: capitalize; }
