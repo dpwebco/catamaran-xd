@@ -1,0 +1,66 @@
+.task-search-results {
+    padding-top: 50px;
+    font-family: "Catamaran", sans-serif;
+
+    .title {
+        font-size: 24px;
+        text-transform: capitalize;
+        font-weight: bold;
+        float: left;
+    }
+    .task-result {
+        margin-bottom: 15px;
+        background-color: #fff;
+        padding: 41px 0 41px 49px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .icon {
+        float: left;
+        margin-right: 16px;
+    }
+
+    .added-date {
+        font-family: Roboto, sans-serif;
+        color: #989898;
+        font-size: 14px;
+        line-height: 24px;
+        position: relative;
+        top: 5px;
+        left: 20px;
+        text-transform: capitalize;
+    }
+
+    .desc {
+        margin: 20px 0;
+        font-family: "Roboto", sans-serif;
+        line-height: 28px;
+    }
+
+    .button-group {
+        .user-template-btn,
+        .preview-btn {
+            float: left;
+            padding: 11px 37px;
+            background-color: #4DA1FF;
+            border: 1px solid #4DA1FF;
+            font-weight: bold;
+            font-size: 12px;
+            text-transform: uppercase;
+            border-radius: 5px;
+            color: #fff;
+        }
+
+        .preview-btn {
+            background-color: #fff;
+            color: #323C47;
+            border: 1px solid #989898;
+            position: relative;
+            left: 30px;
+        }
+    }
+}
+
+.task {
+    background-color: #FAFBFC;
+}
